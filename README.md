@@ -1,17 +1,11 @@
-# Magisk Blobmoji
+# Magisk BlobmojiってどういうMagiskモジュールなのよ!?
 
-Use [Noto Emoji font with Blobs enabled](https://github.com/C1710/blobmoji) on your Android device with [Magisk](https://github.com/topjohnwu/Magisk).
+[Magisk](https://github.com/topjohnwu/Magisk)で[Noto Emoji フォント(Blobmoji)](https://github.com/C1710/blobmoji) (スライムくんな絵文字のアレ)に変更するMagiskモジュールです。
+本家側が「フォントの更新をやってないっぽい」ので勝手なのですが作った...というか差し替えました。
 
-This module simply replaces `/system/fonts/NotoColorEmoji.ttf`, which may conflict with other modules or not take effect.
+このモジュールは単純に`/system/fonts/NotoColorEmoji.ttf`を変更する事で絵文字フォントを変更しています。
+もしかしたら他のモジュールと競合をしたり、うまく有効にならない可能性があります。
 
 ## ダウンロード
 
 [GitHub releases](https://github.com/reindex-ot/magisk-blobmoji/releases) からどうぞ。
-
-## See also
-
-- [Prior art](https://github.com/simonsmh/blobmoji)
-
-## このモジュール何よ!!
-
-Android 7まで使用されていたスライムくんな絵文字フォントを復活させるMagiskモジュールです。[C1710](https://github.com/C1710/blobmoji)氏のblobmojiを内包しています。
